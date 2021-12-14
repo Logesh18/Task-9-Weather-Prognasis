@@ -1,0 +1,105 @@
+body, html {
+    height: 100%;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+
+}
+.background { 
+    background-image: url("https://images.unsplash.com/photo-1598956421870-c7c3f7141dd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Ymx1ZSUyMGNsb3Vkc3xlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100%;
+    opacity:0.9;
+}
+
+#weather{
+    width:250px;
+    height:250px;
+    top:10%;
+    left:10%;
+    opacity:1;
+}
+
+#heading{
+    margin-top:-12%;
+    background: linear-gradient(180deg,rgb(41, 41, 41),rgb(5, 5, 184));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: bold;
+    font-size:40px;
+
+}
+.card {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    border:none;
+    margin-top:5%;
+    background:linear-gradient(180deg, rgb(214, 207, 250), rgb(77, 156, 247));
+    border-radius:30px;
+    box-shadow: 5px -1px 20px #ffffff;
+  }
+  
+
+.container {
+    padding: 12% 5% 12% 5%;
+} 
+
+#city, #submit{
+    border-radius:60px; 
+    border:none; 
+    box-shadow: 5px -4px 20px #ffffff;
+    margin-left:45px;
+}
+
+#city{
+    height:55px;
+    width:40%;
+    background: linear-gradient(100deg, rgb(70, 155, 253),rgb(178, 195, 250));
+    text-align: center;
+    color:#fff;
+    font-size:18px;
+}
+
+#submit{
+    height:73px;
+    width:22%;
+    background-color: rgb(255, 255, 255);
+    font-size:15px;
+    text-decoration: bold;;
+    color:rgb(3, 3, 3);
+}  
+
+#submit:hover{
+    background-color: black;
+    color:white;
+}
+
+#result{
+    padding:10px 50px 10px 100px;
+    border-radius:50px;
+    border:none;
+   
+}
+#degree{
+    background:linear-gradient(90deg, rgb(51, 144, 250), rgb(169, 209, 255));
+    border-radius:50px;
+    border:none;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    margin-left:-56px;
+    padding:40px 0 40px 0; 
+    box-shadow: 5px -1px 20px #ffffff;
+    text-align: right;
+    color:#fff;
+}
+/* @media only screen and (max-width: 760px) {
+  .background {
+
+    background-image: url(https://images.unsplash.com/photo-1554166693-4518329faec1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  }
+} */
